@@ -14,6 +14,26 @@ General Feedback.
 | Button on Confirmation Page clears Redux and starts a new survey | n |
 | Views are broken down into components | y |
 
+client side code 
+
+Individual components for each form part
+ Redux setup complete | y
+ Store linked to react with <Provider> | y
+ Store setup with reducer(s) and logger middleware | y
+ Reducers & Actions Working | y
+ Actions are in SCREAMING_SNAKE_CASE and semantically named | y
+ Actions have a type key, and payload if sending data | y
+ Reducers are returning a new state, or the old state (not mutating) | y
+ Reducers are using spread correctly (to keep old data, while adding new) | n/a
+ Review Component shows at all times with current redux state | y
+ React-Redux Working | y
+ Dispatching actions onClick | y
+ Grabbing data from the redux store with useSelector | y
+ Axios POST request to add feedback | y
+Server code:
+
+ Router made for GET, POST | y
+
 ---
 ### Notes:
 
